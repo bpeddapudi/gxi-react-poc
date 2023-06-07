@@ -3,3 +3,41 @@ h4, h5, h6 {
    font-family: Gotham SSm A,Gotham SSm B,Noto Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
    font-weight: 800;
 }
+
+
+.hero-text-xxl {
+   font-size: 24rem;
+}
+
+.hero-text-xl {
+   font-size: 16rem;
+}
+
+.hero-text-l {
+   font-size: 8rem;
+}
+
+.hero-text-p {
+   font-size: 1.8rem;
+}
+
+.text-yellow {
+   color: #fec813;
+}
+
+
+.zoom-in-out-box {
+   animation: zoom-in-zoom-out 1.3s ease infinite;
+ }
+ 
+ @keyframes zoom-in-zoom-out {
+   0% {
+     transform: scale(1, 1);
+   }
+   50% {
+     transform: scale(1.2, 1.2);
+   }
+   100% {
+     transform: scale(1, 1);
+   }
+ }
