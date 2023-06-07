@@ -294,7 +294,7 @@ function App() {
             <Container>
               <Row>
                 <Col xs={12} className="mb-4">
-                  <h2 className="mb-4" style={{ paddingTop: '4rem' }}>Global Forecast: Industry</h2>
+                  <h2 className="mb-4" style={{ paddingTop: '4rem' }}>Global Forecast: Industry </h2>
                   <p className="mb-4 lead">The digital economy continues to accelerate globally past economic and supply chain disruption. Global interconnection bandwidth is forecast to grow at a 40% five-year CAGR reaching 27,762 Tbps, which is equivalent to 110 zettabytes of data exchanged annually.</p>
                 </Col>
                 <Col md={6}>
